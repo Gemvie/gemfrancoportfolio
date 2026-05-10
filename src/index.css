@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Design Tokens ─────────────────────────────────────────────────── */
+:root {
+  --background: 0.12 0 0;
+  --foreground: 0.97 0 0;
+  --surface: 0.17 0 0;
+  --border: 1 0 0 / 0.1;
+  --accent-bright: 0.88 0.24 145;
+  --accent-glow: oklch(0.88 0.24 145 / 0.15);
+  --muted-foreground: 0.62 0 0;
+}
+
+/* ─── Base ───────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: oklch(var(--background));
+  color: oklch(var(--foreground));
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Custom Utilities ───────────────────────────────────────────────── */
+
+/* Animated gradient mesh background */
+.bg-mesh {
+  background:
+    radial-gradient(ellipse 70% 60% at 20% 30%, oklch(0.88 0.24 145 / 0.06), transparent),
+    radial-gradient(ellipse 50% 40% at 80% 70%, oklch(0.88 0.24 145 / 0.04), transparent),
+    oklch(var(--background));
+}
+
+/* Subtle dot-grid overlay */
+.grid-pattern {
+  background-image: radial-gradient(circle, oklch(1 0 0 / 0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Accent glow shadow */
+.glow-accent {
+  box-shadow: 0 0 24px oklch(0.88 0.24 145 / 0.25), 0 0 60px oklch(0.88 0.24 145 / 0.1);
+}
+
+/* Hover glow helper */
+.hover\:glow-accent:hover {
+  box-shadow: 0 0 24px oklch(0.88 0.24 145 / 0.35), 0 0 60px oklch(0.88 0.24 145 / 0.15);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: oklch(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: oklch(1 0 0 / 0.15);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(0.88 0.24 145 / 0.5);
+}
+
+/* Selection */
+::selection {
+  background: oklch(0.88 0.24 145 / 0.25);
+  color: oklch(var(--foreground));
+}
