@@ -36,7 +36,7 @@ const listingData: { label: string; value: string }[] = [
 ];
 
 const listingTitle =
-  "DK METCALF 2021 DONRUSS OPTIC DOWNTOWN LAZER PRIZM #DT32 SEAHAWKS PSA 10";
+  "DK METCALF 2021 DONRUSS OPTIC DOWNTOWN SSP LAZER PRIZM #DT32 PSA 10";
 
 
 const listingData1: { label: string; value: string }[] = [
