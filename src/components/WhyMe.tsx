@@ -5,12 +5,12 @@ const points = [
   {
     icon: Target,
     title: "Detail-Obsessed",
-    body: "In trading cards, one wrong set name or condition grade can destroy buyer trust. I treat every field like it matters — because it does.",
+    body: "In trading cards, one wrong set name or condition grade can destroy buyer trust. I treat every field like it matters - because it does.",
   },
   {
     icon: Zap,
     title: "High Volume, High Speed",
-    body: "I've handled bulk operations at scale — 200K+ listings — while maintaining accuracy and meeting tight deadlines.",
+    body: "I've handled bulk operations at scale - 200K+ listings - while maintaining accuracy and meeting tight deadlines.",
   },
   {
     icon: Wrench,

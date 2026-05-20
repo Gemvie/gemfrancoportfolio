@@ -1,4 +1,4 @@
-import { Layers, Boxes, Search, Play } from "lucide-react";
+import { Layers, Boxes, Search, Database  } from "lucide-react";
 import { FadeIn } from "./Section";
 
 const services = [
@@ -6,12 +6,12 @@ const services = [
     icon: Layers,
     headline: "I speak the language of Trading Cards.",
     title: "Trading Card & Collectibles Data",
-    body: "From Pokémon, Magic: The Gathering, Yu-Gi-Oh!, sports cards, to non-sports collectibles — I've managed 200,000+ SKUs across high-volume eCommerce catalogs. I know how to structure card data: set names, card numbers, conditions, grades, variants, foils, parallel editions, and more. Every listing clean. Every detail right.",
+    body: "From Pokémon, Magic: The Gathering, Yu-Gi-Oh!, sports cards, to non-sports collectibles - I've managed 200,000+ SKUs across high-volume eCommerce catalogs. I know how to structure card data: set names, card numbers, conditions, grades, variants, foils, parallel editions, and more. Every listing clean. Every detail right.",
     tags: ["Pokémon TCG", "MTG", "Sports Cards", "Graded Cards", "Bulk Listing", "SKU Management", "Variant Mapping"],
   },
   {
     icon: Boxes,
-    headline: "Not just cards — full catalog operations.",
+    headline: "Not just cards - full catalog operations.",
     title: "Non-TCG eCommerce Listings",
     body: "Beyond trading cards, I handle general collectibles, merchandise, and non-TCG product catalogs. Structured Excel workflows, image organization, and bulk listing pipelines that scale without breaking down.",
     tags: ["Catalog Management", "Excel (Advanced)", "Image Organization", "Alpha Tool", "Parallel Tool", "Inventory Tracking"],
@@ -23,14 +23,20 @@ const services = [
     body: "Keyword research, competitor analysis, and on-page optimization that moves your website up in Google rankings and drives organic traffic without paid ads.",
     tags: ["Keyword Research", "On-Page SEO", "Competitor Analysis", "Traffic Strategy"],
   },
-  {
-    icon: Play,
-    headline: "Content is next.",
-    title: "Content Creation",
-    soon: true,
-    body: "Currently building short-form video content for TikTok — reviewing and promoting AI tools as an affiliate creator. Video editing in CapCut & After Effects. Launching soon.",
-    tags: ["CapCut", "TikTok", "AI Affiliate", "Short-Form Video"],
-  },
+ {
+  icon: Database,
+  headline: "Accuracy at scale.",
+  title: "Data Entry & Catalog Operations",
+  body: "Reliable high-volume data entry for eCommerce and collectibles businesses. From spreadsheet management and inventory tracking to structured product listings and asset organization - every workflow is built for speed, consistency, and near-zero errors.",
+  tags: [
+    "Bulk Data Entry",
+    "Catalog Operations",
+    "Excel Workflows",
+    "Inventory Tracking",
+    "QA & Validation",
+    "Asset Management",
+  ],
+},
 ];
 
 export function Services() {
@@ -57,11 +63,6 @@ export function Services() {
                     <div className="w-12 h-12 rounded-xl bg-accent-bright/10 border border-accent-bright/20 flex items-center justify-center text-accent-bright group-hover:bg-accent-bright group-hover:text-background transition-colors">
                       <Icon className="w-5 h-5" />
                     </div>
-                    {s.soon && (
-                      <span className="px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider rounded-full bg-accent-bright/10 text-accent-bright border border-accent-bright/30">
-                        Coming Soon
-                      </span>
-                    )}
                   </div>
                   <p className="text-xs font-mono uppercase tracking-wider text-muted-foreground mb-2">
                     {s.title}

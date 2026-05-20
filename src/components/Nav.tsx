@@ -8,7 +8,6 @@ const links = [
   { href: "#why", label: "Why Hire Me" },
   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
-  { href: "#video-editing", label: "Video Editing (Dropping Soon)" },
   
 ];
 
@@ -86,7 +85,7 @@ export function Nav() {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1y0OkNiFe_84QcN4TW0xLigTW4nqqJO9a/view"
+            href="https://drive.google.com/file/d/1XyKRKM_i01qzaxRfwoPT-OEOpqdPWI-h/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-full border border-accent-bright/40 text-sm font-medium text-accent-bright hover:bg-accent-bright hover:text-background transition-all duration-300"

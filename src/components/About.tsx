@@ -37,8 +37,8 @@ export function About() {
           </h2>
 
           <p className="text-muted-foreground leading-relaxed text-lg">
-            I'm Gemvie — a data specialist from Cebu, Philippines. I've spent
-            3+ years deep inside trading card and collectibles eCommerce —
+            I'm Gemvie - a data specialist from Cebu, Philippines. I've spent
+            3+ years deep inside trading card and collectibles eCommerce -
             managing listings, cleaning data, and building workflows that
             scale. I also have a background in SEO and I'm now expanding into
             content creation.{" "}
