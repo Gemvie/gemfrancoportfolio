@@ -85,7 +85,7 @@ export function Nav() {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1XyKRKM_i01qzaxRfwoPT-OEOpqdPWI-h/view?usp=sharing"
+            href="https://canva.link/t49kqlije1jywxh"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-full border border-accent-bright/40 text-sm font-medium text-accent-bright hover:bg-accent-bright hover:text-background transition-all duration-300"
@@ -129,7 +129,7 @@ export function Nav() {
               {/* Mobile Resume Button */}
               <li className="pt-3">
                 <a
-                  href="https://drive.google.com/file/d/1y0OkNiFe_84QcN4TW0xLigTW4nqqJO9a/view"
+                  href="https://canva.link/t49kqlije1jywxh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center py-3 rounded-full border border-accent-bright/40 text-sm font-medium text-accent-bright hover:bg-accent-bright hover:text-background transition-all duration-300"
