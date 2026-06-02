@@ -39,7 +39,7 @@ export function Contact() {
             </a>
 
             <a
-              href="www.linkedin.com/in/gemvie-frank-franco-926242231"
+              href="https://www.linkedin.com/in/gemvie-frank-franco-926242231"
               target="_blank"
               rel="noreferrer"
               className="w-full max-w-sm inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full border border-border bg-surface/50 backdrop-blur font-semibold hover:bg-surface transition-colors"
