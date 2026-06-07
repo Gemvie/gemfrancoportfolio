@@ -24,7 +24,7 @@ export function Contact() {
           </h2>
 
           <p className="mt-6 text-lg text-muted-foreground max-w-xl mx-auto">
-            Available for freelance and contract work — eCommerce data,
+            Available for freelance and contract work in eCommerce data,
             listing management, or SEO.
           </p>
 

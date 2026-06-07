@@ -7,7 +7,7 @@ const services = [
     icon: Layers,
     title: "Trading Card & Collectibles",
     headline: "I speak the language of trading cards.",
-    body: "From Pokémon, Magic: The Gathering, Yu-Gi-Oh!, and sports cards to graded slabs and non-sports collectibles — I've managed 200,000+ SKUs across high-volume eCommerce catalogs. Set names, card numbers, conditions, grades, variants, foils, parallels — every field clean, every detail right.",
+    body: "From Pokémon, Magic: The Gathering, Yu-Gi-Oh!, and sports cards to graded slabs and non-sports collectibles. I've managed 200,000+ SKUs across high-volume eCommerce catalogs. Set names, card numbers, conditions, grades, variants, foils, parallels, every field clean, every detail right.",
     tags: ["Pokémon TCG", "MTG", "Sports Cards", "Graded Cards", "SKU Management", "Variant Mapping", "Parallel Editions"],
     featured: true,
   },
@@ -25,7 +25,7 @@ const services = [
     icon: ShoppingCart,
     title: "Amazon Catalog & Dropshipping",
     headline: "End-to-end Amazon and dropshipping operations.",
-    body: "Hands-on Amazon Seller Central experience — SKU creation, ASIN management, pricing, inventory tracking, and listing health monitoring. On the dropshipping side: product sourcing across AliExpress, CJDropshipping, Walmart, and eBay with margin analysis and multi-platform catalog management across Shopify, eBay, and Etsy.",
+    body: "Hands-on Amazon Seller Central experience, SKU creation, ASIN management, pricing, inventory tracking, and listing health monitoring. On the dropshipping side: product sourcing across AliExpress, CJDropshipping, Walmart, and eBay with margin analysis and multi-platform catalog management across Shopify, eBay, and Etsy.",
     tags: ["Amazon Seller Central", "SKU Creation", "ASIN Management", "Product Sourcing", "Margin Analysis", "Shopify", "eBay", "Etsy"],
     featured: true,
   },
@@ -34,7 +34,7 @@ const services = [
     icon: Search,
     title: "SEO & Organic Growth",
     headline: "Rank higher. Get found. Sell more.",
-    body: "Keyword research, competitor analysis, and on-page optimization that moves your site up in Google rankings and drives organic traffic — without paid ads. Applied across eCommerce and content-driven websites.",
+    body: "Keyword research, competitor analysis, and on-page optimization that moves your site up in Google rankings and drives organic traffic without paid ads. Applied across eCommerce and content-driven websites.",
     tags: ["Keyword Research", "On-Page SEO", "Competitor Analysis", "Traffic Strategy", "Google Rankings"],
     featured: false,
   },
@@ -43,7 +43,7 @@ const services = [
     icon: Database,
     title: "Data Entry & QA",
     headline: "Accuracy at scale, every time.",
-    body: "Reliable, high-volume data entry for eCommerce and collectibles businesses. Spreadsheet management, inventory tracking, structured product listings, and asset organization — every workflow built for speed, consistency, and near-zero errors across the board.",
+    body: "Reliable, high-volume data entry for eCommerce and collectibles businesses. Spreadsheet management, inventory tracking, structured product listings, and asset organization every workflow built for speed, consistency, and near-zero errors across the board.",
     tags: ["Bulk Data Entry", "Excel Workflows", "Inventory Tracking", "QA & Validation", "Asset Management", "SOP Execution"],
     featured: false,
   },
@@ -64,7 +64,7 @@ export function Services() {
             <span className="text-foreground/50">precision and scale.</span>
           </h2>
           <p className="mt-4 text-muted-foreground max-w-xl text-lg">
-            Five core areas covering the full eCommerce data stack — from
+            Five core areas covering the full eCommerce data stack from
             trading card catalogs to Amazon operations and organic growth.
           </p>
         </FadeIn>

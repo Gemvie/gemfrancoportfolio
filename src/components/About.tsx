@@ -71,7 +71,7 @@ export function About() {
             </h2>
 
             <p className="text-muted-foreground leading-relaxed text-lg">
-              I'm Gemvie — an eCommerce Data Specialist based in Cebu, Philippines.
+              I'm Gemvie, an eCommerce Data Specialist based in Cebu, Philippines.
               For 3+ years I've managed high-volume product datasets across trading
               cards, collectibles, and Amazon catalog operations. I've handled
               200,000+ listings with a near-zero error rate, built Excel workflows
