@@ -351,7 +351,7 @@ function DropshippingTab() {
           {
             icon: ShoppingCart,
             title: "Marketplace Listing",
-            body: "Prepare product details for Shopify, eBay, Etsy, Amazon, or other eCommerce platforms.",
+            body: "Prepare product details for Shopify, eBay, Michaels, Amazon, or other eCommerce platforms.",
           },
           {
             icon: ExternalLink,
@@ -625,7 +625,7 @@ const dropshippingItems = [
     cost: "$5.10",
     sell: "$17.99",
     margin: "~52%",
-    platform: "Etsy",
+    platform: "Michaels",
     status: "Paused",
   },
 ];
