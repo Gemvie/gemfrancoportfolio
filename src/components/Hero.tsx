@@ -80,9 +80,7 @@ export function Hero() {
             </p>
 
             <p className="mt-6 text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed">
-              I specialize in high-volume trading card and collectibles catalogs -
-              structuring accurate listings, organized inventory systems, and
-              search-optimized product data at scale.
+             I help businesses manage high-volume trading card and collectibles catalogs through accurate data entry, structured inventory systems, and SEO-optimized product listings.
             </p>
           </motion.div>
 

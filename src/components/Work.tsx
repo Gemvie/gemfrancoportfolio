@@ -206,7 +206,7 @@ function TCGTab() {
           <div className="flex items-center gap-3 px-4 py-2 rounded-full border border-accent-bright/30 bg-accent-bright/5">
             <Sparkles className="w-3.5 h-3.5 text-accent-bright" />
             <span className="text-xs font-mono uppercase tracking-widest text-accent-bright">
-              Every Detail Matters.
+              Built for Marketplace Accuracy
             </span>
             <Sparkles className="w-3.5 h-3.5 text-accent-bright" />
           </div>

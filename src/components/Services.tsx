@@ -6,8 +6,8 @@ const services = [
     num: "01",
     icon: Layers,
     title: "Trading Card & Collectibles",
-    headline: "I speak the language of trading cards.",
-    body: "From Pokémon, Magic: The Gathering, Yu-Gi-Oh!, and sports cards to graded slabs and non-sports collectibles. I've managed 200,000+ SKUs across high-volume eCommerce catalogs. Set names, card numbers, conditions, grades, variants, foils, parallels, every field clean, every detail right.",
+    headline: "Specialized trading card catalog work.",
+    body: "Experienced in Pokémon, Magic: The Gathering, Yu-Gi-Oh!, sports cards, graded slabs, and non-sports collectibles. I manage set names, card numbers, conditions, grades, variants, foils, parallels, and SKU details with clean, accurate structure.",
     tags: ["Pokémon TCG", "MTG", "Sports Cards", "Graded Cards", "SKU Management", "Variant Mapping", "Parallel Editions"],
     featured: true,
   },
@@ -15,17 +15,17 @@ const services = [
     num: "02",
     icon: Boxes,
     title: "Non-TCG Catalog Operations",
-    headline: "Full catalog ops beyond trading cards.",
-    body: "General collectibles, merchandise, and non-TCG product catalogs handled at scale. Structured Excel workflows, bulk listing pipelines using Alpha and Parallel methods, and image library organization built for speed and consistency.",
-    tags: ["Catalog Management", "Excel (Advanced)", "Image Organization", "Alpha Tool", "Parallel Tool", "Inventory Tracking"],
+    headline: "Clean catalog systems beyond cards.",
+    body: "Structured product catalogs for collectibles, merchandise, and non-TCG items using organized Excel workflows, bulk listing methods, image folders, inventory tracking, and repeatable processes built for speed and consistency.",
+    tags: ["Catalog Management", "Excel Advanced", "Image Organization", "Alpha Tool", "Parallel Tool", "Inventory Tracking"],
     featured: false,
   },
   {
     num: "03",
     icon: ShoppingCart,
     title: "Amazon Catalog & Dropshipping",
-    headline: "End-to-end Amazon and dropshipping operations.",
-    body: "Hands-on Amazon Seller Central experience, SKU creation, ASIN management, pricing, inventory tracking, and listing health monitoring. On the dropshipping side: product sourcing across AliExpress, CJDropshipping, Walmart, and eBay with margin analysis and multi-platform catalog management across Shopify, eBay, and Etsy.",
+    headline: "Marketplace listings from setup to scale.",
+    body: "Hands-on experience with Amazon Seller Central, SKU creation, ASIN management, pricing, inventory tracking, and listing health. Also skilled in product sourcing, margin checks, and multi-platform catalog management across Shopify, eBay, and Etsy.",
     tags: ["Amazon Seller Central", "SKU Creation", "ASIN Management", "Product Sourcing", "Margin Analysis", "Shopify", "eBay", "Etsy"],
     featured: true,
   },
@@ -33,8 +33,8 @@ const services = [
     num: "04",
     icon: Search,
     title: "SEO & Organic Growth",
-    headline: "Rank higher. Get found. Sell more.",
-    body: "Keyword research, competitor analysis, and on-page optimization that moves your site up in Google rankings and drives organic traffic without paid ads. Applied across eCommerce and content-driven websites.",
+    headline: "Optimized listings that get found.",
+    body: "Keyword research, competitor analysis, on-page optimization, and product content improvements designed to improve search visibility, rankings, and organic traffic for eCommerce and content-driven websites.",
     tags: ["Keyword Research", "On-Page SEO", "Competitor Analysis", "Traffic Strategy", "Google Rankings"],
     featured: false,
   },
@@ -42,9 +42,9 @@ const services = [
     num: "05",
     icon: Database,
     title: "Data Entry & QA",
-    headline: "Accuracy at scale, every time.",
-    body: "Reliable, high-volume data entry for eCommerce and collectibles businesses. Spreadsheet management, inventory tracking, structured product listings, and asset organization every workflow built for speed, consistency, and near-zero errors across the board.",
-    tags: ["Bulk Data Entry", "Excel Workflows", "Inventory Tracking", "QA & Validation", "Asset Management", "SOP Execution"],
+    headline: "High-volume accuracy with clean QA.",
+    body: "Reliable data entry for product listings, spreadsheets, inventory systems, and asset organization. Every workflow is built around accuracy, consistency, validation, and smooth SOP execution at scale.",
+    tags: ["Bulk Data Entry", "Excel Workflows", "Inventory Tracking", "QA Validation", "Asset Management", "SOP Execution"],
     featured: false,
   },
 ];
@@ -64,8 +64,7 @@ export function Services() {
             <span className="text-foreground/50">precision and scale.</span>
           </h2>
           <p className="mt-4 text-muted-foreground max-w-xl text-lg">
-            Five core areas covering the full eCommerce data stack from
-            trading card catalogs to Amazon operations and organic growth.
+           Five focused service areas covering catalog operations, marketplace listings, SEO, and high-volume data accuracy.
           </p>
         </FadeIn>
 

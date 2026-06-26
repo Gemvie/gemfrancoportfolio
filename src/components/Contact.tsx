@@ -1,4 +1,4 @@
-import { Mail, ExternalLink, Github, Linkedin } from "lucide-react";
+import { Mail, ExternalLink, Linkedin, Facebook } from "lucide-react";
 import { FadeIn } from "./Section";
 
 export function Contact() {
@@ -24,8 +24,7 @@ export function Contact() {
           </h2>
 
           <p className="mt-6 text-lg text-muted-foreground max-w-xl mx-auto">
-            Available for freelance and contract work in eCommerce data,
-            listing management, or SEO.
+           Available for remote eCommerce operations, catalog management, marketplace support, and SEO optimization.
           </p>
 
           {/* STACKED CONTACT LINKS */}
@@ -48,15 +47,6 @@ export function Contact() {
               LinkedIn
             </a>
 
-            <a
-              href="https://github.com/Gemvie"
-              target="_blank"
-              rel="noreferrer"
-              className="w-full max-w-sm inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full border border-border bg-surface/50 backdrop-blur font-semibold hover:bg-surface transition-colors"
-            >
-              <Github className="w-4 h-4" />
-              GitHub
-            </a>
 
             <a
               href="https://v2.onlinejobs.ph/jobseekers/info/1963547"
@@ -67,13 +57,24 @@ export function Contact() {
               <ExternalLink className="w-4 h-4" />
               OnlineJobs.ph
             </a>
+
+ <a
+           href="https://www.facebook.com/Gemviefrank"
+                 target="_blank"
+                      rel="noreferrer"
+                         className="w-full max-w-sm inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full border border-border bg-surface/50 backdrop-blur font-semibold hover:bg-surface transition-colors"
+>
+                         <Facebook className="w-4 h-4" />
+                     Facebook
+            </a>
+
           </div>
         </FadeIn>
       </div>
 
       <footer className="relative mt-24 pt-8 border-t border-border max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3 text-xs text-muted-foreground">
         <p>
-          © {new Date().getFullYear()} Gemvie Frank Franco · Cebu City, PH
+          © {new Date().getFullYear()} Cebu, Philippines
         </p>
         <p className="font-mono">Built with care. Shipped clean.</p>
       </footer>
