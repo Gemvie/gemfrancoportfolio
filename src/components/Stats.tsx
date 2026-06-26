@@ -24,7 +24,7 @@ const stats = [
     id: "platforms",
     value: "5+",
     label: "Platforms Worked Across",
-    sub: "eBay · Amazon · Shopify · Etsy · TCG tools",
+    sub: "eBay · Amazon · Shopify · Michaels · TCG tools",
   },
 ];
 

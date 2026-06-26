@@ -25,8 +25,8 @@ const services = [
     icon: ShoppingCart,
     title: "Amazon Catalog & Dropshipping",
     headline: "Marketplace listings from setup to scale.",
-    body: "Hands-on experience with Amazon Seller Central, SKU creation, ASIN management, pricing, inventory tracking, and listing health. Also skilled in product sourcing, margin checks, and multi-platform catalog management across Shopify, eBay, and Etsy.",
-    tags: ["Amazon Seller Central", "SKU Creation", "ASIN Management", "Product Sourcing", "Margin Analysis", "Shopify", "eBay", "Etsy"],
+    body: "Hands-on experience with Amazon Seller Central, SKU creation, ASIN management, pricing, inventory tracking, and listing health. Also skilled in product sourcing, margin checks, and multi-platform catalog management across Shopify, eBay, and Michaels.",
+    tags: ["Amazon Seller Central", "SKU Creation", "ASIN Management", "Product Sourcing", "Margin Analysis", "Shopify", "eBay", "Michaels"],
     featured: true,
   },
   {

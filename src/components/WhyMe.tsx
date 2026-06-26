@@ -45,7 +45,7 @@ const points = [
     icon: ShoppingCart,
     tag: "05",
     title: "Marketplace Product Research",
-    body: "Experienced with product sourcing, margin checks, platform listings, and inventory tracking across AliExpress, CJDropshipping, Walmart, eBay, Shopify, and Etsy.",
+    body: "Experienced with product sourcing, margin checks, platform listings, and inventory tracking across AliExpress, CJDropshipping, Walmart, eBay, Shopify, and Michaels.",
     stat: "5+",
     statLabel: "Platforms worked across",
   },
